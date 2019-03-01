@@ -1,0 +1,26 @@
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.item {
+    background: tomato;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 200px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.wrapper {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+}
